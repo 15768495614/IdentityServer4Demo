@@ -30,7 +30,9 @@ namespace IdentityServer4Demo
                     {
                         IdentityModel.JwtClaimTypes.Name,
                         IdentityModel.JwtClaimTypes.Email,
-                        System.Security.Claims.ClaimTypes.NameIdentifier //用于AbpAuthorization的UserId
+                        System.Security.Claims.ClaimTypes.NameIdentifier, //用于AbpAuthorization的UserId
+                        "UserCode",
+                        "UserName"
                     }
                 },
 
