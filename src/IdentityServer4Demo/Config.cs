@@ -366,9 +366,10 @@ namespace IdentityServer4Demo
                     ClientName = "Angular SPA 客户端",
                     ClientUri = "http://localhost:4200",
 
+
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
-                    RequireConsent = true,
+                    RequireConsent = false,//禁用页面确认
                     AccessTokenLifetime = 60 * 5,
                     RedirectUris =
                     {
